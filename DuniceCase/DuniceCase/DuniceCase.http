@@ -1,0 +1,6 @@
+@DuniceCase_HostAddress = http://localhost:5182
+
+GET {{DuniceCase_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
