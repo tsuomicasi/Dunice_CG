@@ -9,7 +9,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.example.flaggCg.RunnerTests</string>
+	<string>com.example.flagg.RunnerTests</string>
 	<key>PROJECT_ID</key>
 	<string>flaggcg-7d756</string>
 	<key>STORAGE_BUCKET</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:217188557877:ios:322a94a7d74e814a1e7d7c</string>
+	<string>1:217188557877:ios:0a4cb6a80e34d88e1e7d7c</string>
 </dict>
 </plist>

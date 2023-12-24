@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "flagg_cg" "\0"
+            VALUE "FileDescription", "flagg" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "flagg_cg" "\0"
+            VALUE "InternalName", "flagg" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "flagg_cg.exe" "\0"
-            VALUE "ProductName", "flagg_cg" "\0"
+            VALUE "OriginalFilename", "flagg.exe" "\0"
+            VALUE "ProductName", "flagg" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

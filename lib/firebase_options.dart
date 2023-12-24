@@ -17,7 +17,10 @@ import 'package:flutter/foundation.dart'
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
-      return web;
+      throw UnsupportedError(
+        'DefaultFirebaseOptions have not been configured for web - '
+        'you can reconfigure this by running the FlutterFire CLI again.',
+      );
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
@@ -25,7 +28,10 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        return macos;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for macos - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -43,18 +49,9 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDoDHoQZJaevVGRiqMHoMk9hsJAxNA929o',
-    appId: '1:217188557877:web:99d536a0ff63f3e51e7d7c',
-    messagingSenderId: '217188557877',
-    projectId: 'flaggcg-7d756',
-    authDomain: 'flaggcg-7d756.firebaseapp.com',
-    storageBucket: 'flaggcg-7d756.appspot.com',
-  );
-
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyB6SIvV2HF3HfqcPWwdLpBrN-9e5JZMOgg',
-    appId: '1:217188557877:android:ee30bca1eb491f351e7d7c',
+    appId: '1:217188557877:android:4de6457c61e92ef41e7d7c',
     messagingSenderId: '217188557877',
     projectId: 'flaggcg-7d756',
     storageBucket: 'flaggcg-7d756.appspot.com',
@@ -62,19 +59,10 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyD3-EPu_ui4QW-B-VKTqglgwXH6Wo6pIIg',
-    appId: '1:217188557877:ios:0e911cf76ed700691e7d7c',
+    appId: '1:217188557877:ios:5ddf3b6eabed7ae21e7d7c',
     messagingSenderId: '217188557877',
     projectId: 'flaggcg-7d756',
     storageBucket: 'flaggcg-7d756.appspot.com',
-    iosBundleId: 'com.example.flaggCg',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyD3-EPu_ui4QW-B-VKTqglgwXH6Wo6pIIg',
-    appId: '1:217188557877:ios:322a94a7d74e814a1e7d7c',
-    messagingSenderId: '217188557877',
-    projectId: 'flaggcg-7d756',
-    storageBucket: 'flaggcg-7d756.appspot.com',
-    iosBundleId: 'com.example.flaggCg.RunnerTests',
+    iosBundleId: 'com.example.flagg',
   );
 }

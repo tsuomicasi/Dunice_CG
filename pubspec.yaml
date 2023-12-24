@@ -1,4 +1,4 @@
-name: flagg_cg
+name: flagg
 description: A new Flutter project.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -34,15 +34,18 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  flutterflow_ui: ^0.2.0
   cupertino_icons: ^1.0.2
+  flutterflow_ui: ^0.2.0+1
+  pin_code_fields: ^8.0.1
+  auth_manager: ^1.2.3
+  go_router: ^13.0.0
   firebase_core: ^2.24.2
   firebase_auth: ^4.15.3
-  email_validator: ^2.1.17
-  flutter_animate: ^4.3.0
+  provider: ^6.0.4
   google_fonts: ^4.0.3
-  provider: ^6.1.1
-  
+  email_validator: ^2.1.17
+
+
 
 dev_dependencies:
   flutter_test:
@@ -54,13 +57,24 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
-  
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
 flutter:
+  fonts:
+    - family: Ubuntu
+      fonts:
+        - asset: fonts/Ubuntu-Regular.ttf
+        - asset: fonts/Ubuntu-BoldItalic.ttf
+          style: italic
+    - family: Ubuntu Condensed
+      fonts:
+        - asset: fonts/UbuntuCondensed-Regular.ttf
+        
+
+    
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

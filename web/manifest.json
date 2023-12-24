@@ -1,6 +1,6 @@
 {
-    "name": "flagg_cg",
-    "short_name": "flagg_cg",
+    "name": "flagg",
+    "short_name": "flagg",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

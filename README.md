@@ -1,4 +1,4 @@
-# flagg_cg
+# flagg
 
 A new Flutter project.
 
