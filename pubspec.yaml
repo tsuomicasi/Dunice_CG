@@ -13,8 +13,7 @@ dependencies:
     sdk: flutter
 
   permission_handler: ^10.4.0
-  yandex_mapkit:
-    path: ../
+  yandex_mapkit: ^3.3.3
 
 dev_dependencies:
   flutter_lints: ^2.0.2
@@ -27,5 +26,4 @@ flutter:
     - lib/assets/arrow.png
     - lib/assets/route_start.png
     - lib/assets/route_end.png
-    - lib/assets/nigger.png
   uses-material-design: true

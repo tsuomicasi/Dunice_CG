@@ -53,7 +53,7 @@ List<PlacemarkMapObject> _getPlacemarkObjects(BuildContext context) {
           icon: PlacemarkIcon.single(
             PlacemarkIconStyle(
               image: BitmapDescriptor.fromAssetImage(
-                'lib/assets/nigger.png',
+                'lib/assets/place.png',
               ),
               scale: 0.2,
             ),

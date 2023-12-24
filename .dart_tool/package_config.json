@@ -117,7 +117,7 @@
     },
     {
       "name": "yandex_mapkit",
-      "rootUri": "../../",
+      "rootUri": "file:///C:/Users/valer/AppData/Local/Pub/Cache/hosted/pub.dev/yandex_mapkit-3.3.3",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -128,7 +128,7 @@
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2023-12-24T02:58:33.319109Z",
+  "generated": "2023-12-24T10:57:49.354453Z",
   "generator": "pub",
   "generatorVersion": "3.2.3"
 }
