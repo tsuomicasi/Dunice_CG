@@ -1,8 +1,1 @@
-# yandex_mapkit_example
-
-Demonstrates how to use the yandex_mapkit plugin.
-
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+https://sun9-81.userapi.com/impg/imk8v8gnFoPSKckDGxHNtwCWxy-Ts0x_ExdWkg/xEBlWDYRVoU.jpg?size=1080x994&quality=96&sign=52791e3c66746362b764ad3bd24f9281&c_uniq_tag=_kThAtPPcBiC8unL0bYLyIJWNLLpfiiIidpwMOP0jk4&type=album
