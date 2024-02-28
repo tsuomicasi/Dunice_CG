@@ -1,1 +1,1 @@
-https://sun9-81.userapi.com/impg/imk8v8gnFoPSKckDGxHNtwCWxy-Ts0x_ExdWkg/xEBlWDYRVoU.jpg?size=1080x994&quality=96&sign=52791e3c66746362b764ad3bd24f9281&c_uniq_tag=_kThAtPPcBiC8unL0bYLyIJWNLLpfiiIidpwMOP0jk4&type=album
+(https://github.com/tsuomicasi/Dunice_CG/assets/55149115/e3030c97-e96b-4642-a08a-8718e16c7008)
